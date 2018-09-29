@@ -14,7 +14,7 @@ To build the implementation and download the pre-trained networks, run `bash ins
 To run it on your own pair of frames, use the following command. You can either select the `l1` or the `lf` model, please see our paper for more details. In short, the `l1` model should be used for quantitative evaluations and the `lf` model for qualitative comparisons.
 
 ```
-th run.lua -model lf -first ./images/first.png -second ./images/second.png -out ./result.png
+th run.lua -model lf -first ./images/first.png -second ./images/second.png -out ./out.png
 ```
 
 ## video

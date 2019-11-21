@@ -3,7 +3,7 @@
 
 This is a reference implementation of Video Frame Interpolation via Adaptive Separable Convolution [1] using Torch. Given two frames, it will make use of [adaptive convolution](http://graphics.cs.pdx.edu/project/adaconv) [2] in a separable manner to interpolate the intermediate frame. Should you be making use of our work, please cite our paper [1].
 
-<a href="https://arxiv.org/abs/1708.01692" rel="Paper"><img src="http://content.sniklaus.com/SepConv/Paper.jpg" alt="Paper" width="100%"></a>
+<a href="https://arxiv.org/abs/1708.01692" rel="Paper"><img src="http://content.sniklaus.com/sepconv/paper.jpg" alt="Paper" width="100%"></a>
 
 For the PyTorch version of this work, please see: https://github.com/sniklaus/pytorch-sepconv
 
@@ -14,7 +14,7 @@ To build the implementation and download the pre-trained networks, run `bash ins
 To run it on your own pair of frames, use the following command. You can either select the `l1` or the `lf` model, please see our paper for more details. In short, the `l1` model should be used for quantitative evaluations and the `lf` model for qualitative comparisons.
 
 ```
-th run.lua -model lf -first ./images/first.png -second ./images/second.png -out ./result.png
+th run.lua -model lf -first ./images/first.png -second ./images/second.png -out ./out.png
 ```
 
 ## video
